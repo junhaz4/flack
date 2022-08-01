@@ -1,0 +1,227 @@
+html, body { height: 100%;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+}
+button{
+    background: transparent;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+#footer-div{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    position:absolute;
+    bottom:0;
+    margin: 0;
+    padding: 5px;
+}
+#footer-text{
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+ .card{
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: auto;
+    width: auto;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+    .card-header h3, h4{
+    color: white;
+    }
+
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #CC9933;
+    color: black;
+    border:0 !important;
+    }
+
+    input:focus{
+    /*outline: 0 0 0 0  !important;*/
+    box-shadow: 0 0 0 0 !important;
+
+    }
+
+    .login_btn{
+    color: black;
+    background-color: #CC9933;
+    width: 50%;
+    }
+
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    .sign-up-message{
+        color: #CC9933;
+        font-weight: bold;
+    }
+
+    /* Chat page Styles */
+
+    .nav-text{
+        color: black;
+        padding: 7px;
+        border: 0.5px solid #CBCECF;
+        font-weight: normal;
+        border-radius: 9px;
+        text-align: center;
+    }
+    .write-text-div{
+        height: 15%;
+        width: 100%;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .text-form {
+        position: relative;
+        width: 100%;
+        height: 90%;
+        background: white;
+        cursor: pointer;
+        display: block;
+        box-sizing: border-box;
+        border-radius: 13px;
+        border: 0.5px solid #CBCECF;
+        padding: 5px;
+        -moz-box-shadow:    2px 2px 2px 2px #ccc;
+        -webkit-box-shadow: 2px 2px 2px 2px #ccc;
+        box-shadow:         2px 2px 2px 2px #ccc;
+        }
+    .text-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 95%;
+        outline: 0;
+        border: 0;
+        font-size: 1em;
+        border-radius: 13px;
+        padding: 0 20px;
+        }
+    .text-error{
+        color: red;
+        position: absolute;
+        z-index: 5;
+        margin-left: 20px;
+    }
+    .fa{
+        box-sizing: border-box;
+        padding: 10px;
+        width: 42.5px;
+        height: 42.5px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 50%;
+        color: white;
+        background: #CC9933;
+        text-align: center;
+        font-size: 1.2em;
+        transition: all 1s;
+    }
+    .text-form .fa{
+        box-sizing: border-box;
+        width: 42.5px;
+        height: 42.5px;
+        margin-right: 10px;
+        margin-top: 10px;
+        color: white;
+        background: #336699;
+    }
+    .messages-div{
+        margin-top: 15px;
+        border-radius: 13px;
+        height: 85%;
+        width: 100%;
+        border: 0.5px solid #CBCECF;
+        padding: 10px;
+    }
+    .message-list{
+        overflow-y: auto;
+        padding: 5px;
+        width: 100%;
+        height: 65vh;
+    }
+    .channels-div{
+        overflow-y: auto;
+        margin-top: 15px;
+        border-radius: 13px;
+        height: 100%;
+        width: 100%;
+        border: 0.5px solid #CBCECF;
+        padding-top: 10px;
+    }
+    #channels li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0;
+        width: 100%;
+        border-bottom: 0.35px solid #CBCECF;
+    }
+    #channels li:hover{
+        cursor: pointer;
+    }
+    .name_time{
+        display: flex;
+        flex-direction: row;
+        margin-top: 7px;
+    }
+    .nameParagraph{
+        font-weight: bold;
+        margin-right: 5px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .timeParagraph{
+        color: grey;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .contentParagraph{
+        margin: 0;
+        padding: 0;
+    }
+
+    @media (min-width:200px) and (max-width:800px) {
+        .book_item{
+            width: 50%;
+            padding: 10px;
+        }
+        .messages-div{
+            margin-top: 30px;
+            border-radius: 13px;
+            height: auto;
+            width: auto;
+            border: 0.5px solid #CBCECF;
+            padding: 10px;
+        }
+        .write-text-div{
+            height: 70px;
+            width: auto;
+            margin-top: 5px;
+            display: flex;
+            flex-direction: row;
+        }
+        .text-form .fa{
+            box-sizing: border-box;
+            width: 30.5px;
+            height: 30.5px;
+            margin-right: 10px;
+            margin-top: 5px;
+            color: white;
+            background: #336699;
+        }
+    }
