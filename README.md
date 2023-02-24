@@ -1,6 +1,6 @@
 # flack
 
-Flack is a clone of popular messaging app Slack built in two days. 
+Flack is a clone of popular messaging app Slack
 
 Using socket.io to broadcast messages to clients on the same network with no internet connection required.
 
